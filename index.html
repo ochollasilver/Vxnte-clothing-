@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VANTE — The First Fall</title>
+<meta name="description" content="VANTE — The First Fall. Independent streetwear, Est. 2026.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#home">VXΝTE</a>
+  <nav><a href="#drop">DROP 001</a><a href="#story">STORY</a><a href="#contact">CONTACT</a></nav>
+  <button class="bag" id="bagBtn">BAG <span id="count">0</span></button>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <p>VANTE / EST. 2026</p>
+    <h1>THE<br>FIRST<br>FALL.</h1>
+    <p class="sub">NOT EVERYONE<br>SURVIVES THE CLIMB.</p>
+    <a class="cta" href="#drop">ENTER THE DROP</a>
+  </div>
+</section>
+
+<section class="drop" id="drop">
+  <div class="heading"><p>DROP 001</p><h2>THE FIRST FALL</h2></div>
+  <div class="products">
+    <article class="product">
+      <div class="photo"><img src="images/vante-white-drop.png" alt="VANTE The First Fall white T-shirt"></div>
+      <div class="info"><div><h3>THE FIRST FALL — WHITE</h3><p>Heavyweight streetwear tee</p></div><strong>KSh 1,500</strong></div>
+      <label>SIZE
+        <select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select>
+      </label>
+      <button class="add" data-name="The First Fall — White" data-price="1500">ADD TO BAG</button>
+    </article>
+    <article class="product">
+      <div class="photo"><img src="images/vante-black-drop.png" alt="VANTE The First Fall black T-shirt"></div>
+      <div class="info"><div><h3>THE FIRST FALL — BLACK</h3><p>Heavyweight streetwear tee</p></div><strong>KSh 1,500</strong></div>
+      <label>SIZE
+        <select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select>
+      </label>
+      <button class="add" data-name="The First Fall — Black" data-price="1500">ADD TO BAG</button>
+    </article>
+  </div>
+</section>
+
+<section class="story" id="story">
+  <p>VXΝTE / ABOUT</p>
+  <h2>BUILT FOR<br>THE ONES<br>WHO MOVE<br>DIFFERENT.</h2>
+  <p class="copy">VANTE is an independent streetwear label born in 2026. The First Fall is the beginning — clean silhouettes, dark energy and statement graphics.</p>
+</section>
+
+<section class="contact" id="contact">
+  <p>VANTE / CONTACT</p>
+  <h2>STAY<br>TUNED.</h2>
+  <p class="copy">ORDERS: <a class="phone" href="tel:0704394176">0704 394 176</a><br><br>Call this number to place an order.</p>
+</section>
+
+<footer><span>© 2026 VANTE</span><span>THE FIRST FALL / 001</span></footer>
+
+<aside class="cart" id="cart">
+  <div class="cart-head"><h2>YOUR BAG</h2><button id="close">×</button></div>
+  <div id="items"></div>
+  <div class="total"><span>TOTAL</span><strong id="total">KSh 0</strong></div>
+  <button class="checkout" id="checkout">CHECKOUT</button>
+  <small>Real M-PESA checkout can be connected once the eligible adult/business payment account is ready.</small>
+</aside>
+<div class="shade" id="shade"></div>
+<script src="script.js"></script>
+</body>
+</html>
